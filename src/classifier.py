@@ -1,15 +1,3 @@
-""" Amazon Access Challenge Starter Code
-
-These files provide some starter code using 
-the scikit-learn library. It provides some examples on how
-to design a simple algorithm, including pre-processing,
-training a logistic regression classifier on the data,
-assess its performance through cross-validation and some 
-pointers on where to go next.
-
-Paul Duan <email@paulduan.com>
-"""
-
 from __future__ import division
 
 import numpy as np
@@ -27,10 +15,10 @@ def load_data(filename, use_labels=True):
     """
 
     # load column 1 to 8 (ignore last one)
-    data = np.loadtxt(open("data/" + filename), delimiter=',',
-                      usecols=range(1, 9), skiprows=1)
+    data = np.loadtxt(open("../dataset/" + filename), delimiter=',',
+                      usecols=range(1, 8), skiprows=1)
     if use_labels:
-        labels = np.loadtxt(open("data/" + filename), delimiter=',',
+        labels = np.loadtxt(open("../dataset/" + filename), delimiter=',',
                             usecols=[0], skiprows=1)
     else:
         labels = np.zeros(data.shape[0])
@@ -76,7 +64,7 @@ def main():
     for i in range(n):
         # for each iteration, randomly hold out 20% of the data as CV set
         X_train, X_cv, y_train, y_cv = cross_validation.train_test_split(
-            X, y, test_size=.20, random_state=i*SEED)
+            X, y, test_size=.01, random_state=i*SEED)
 
         # if you want to perform feature selection / hyperparameter
         # optimization, this is where you want to do it
