@@ -1,0 +1,56 @@
+[05/06/16 03:30:27] DEBUG	
+==================================================
+[05/06/16 03:30:27] INFO	loading data
+[05/06/16 03:30:27] DEBUG	loading data from train.csv
+[05/06/16 03:30:30] DEBUG	loading data from test.csv
+[05/06/16 03:30:32] INFO	preparing datasets (use_cache=True)
+[05/06/16 03:30:32] WARNING	couldn't load dataset tuples_sf, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset greedy_sfl, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset greedy3_sf, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset basic_b, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset tuples_f, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset tuples_fd, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset greedy_f, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset greedy2_f, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset basic_f, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset tuples_f, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset greedy_sbl, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset greedy_c, will generate it
+[05/06/16 03:30:32] WARNING	couldn't load dataset tuples_cf, will generate it
+[05/06/16 03:30:32] WARNING	could not find feature set bsfeats
+[05/06/16 03:39:58] DEBUG	
+==================================================
+[05/06/16 03:39:58] INFO	loading data
+[05/06/16 03:39:58] DEBUG	loading data from train.csv
+[05/06/16 03:40:01] DEBUG	loading data from test.csv
+[05/06/16 03:40:05] INFO	preparing datasets (use_cache=False)
+[05/06/16 03:40:05] WARNING	could not find feature set bsfeats
+[05/06/16 03:40:34] DEBUG	
+==================================================
+[05/06/16 03:40:34] INFO	loading data
+[05/06/16 03:40:34] DEBUG	loading data from train.csv
+[05/06/16 03:40:37] DEBUG	loading data from test.csv
+[05/06/16 03:40:40] INFO	preparing datasets (use_cache=True)
+[05/06/16 03:40:40] WARNING	couldn't load dataset tuples_sf, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset greedy_sfl, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset greedy2_sfl, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset greedy3_sf, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset basic_b, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset tuples_f, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset tuples_fd, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset greedy_f, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset greedy2_f, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset basic_f, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset tuples_f, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset greedy_sbl, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset greedy_c, will generate it
+[05/06/16 03:40:40] WARNING	couldn't load dataset tuples_cf, will generate it
+[05/06/16 03:40:40] WARNING	could not find feature set bsfeats
+[05/06/16 03:43:55] DEBUG	
+==================================================
+[05/06/16 03:43:55] INFO	loading data
+[05/06/16 03:43:55] DEBUG	loading data from train.csv
+[05/06/16 03:43:59] DEBUG	loading data from test.csv
+[05/06/16 03:44:02] INFO	preparing datasets (use_cache=False)
+[05/06/16 03:44:02] WARNING	could not find feature set bsfeats

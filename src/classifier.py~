@@ -46,7 +46,7 @@ def main():
     # === load data in memory === #
     print "loading data"
     y, X = load_data('train.csv')
-    trainn = pd.read_csv('train.csv')
+    trainn = read_csv('train.csv')
     print trainn.corr()["ACTION"]
     y_test, X_test = load_data('test.csv', use_labels=False)
 
