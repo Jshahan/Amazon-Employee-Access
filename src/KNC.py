@@ -41,7 +41,7 @@ def main():
     into binary features.
     y and X will be numpy array objects.
     """
-    model = KNeighborsClassifier(n=1)  # the classifier we'll use
+    model = KNeighborsClassifier(n=20)  # the classifier we'll use
 
     # === load data in memory === #
     print "loading data"

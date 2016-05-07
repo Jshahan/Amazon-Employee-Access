@@ -42,7 +42,7 @@ def main():
     into binary features.
     y and X will be numpy array objects.
     """
-    model = RandomForestClassifier()  # the classifier we'll use
+    model = RandomForestClassifier(n_estimators=20)  # the classifier we'll use
 
     # === load data in memory === #
     print "loading data"
